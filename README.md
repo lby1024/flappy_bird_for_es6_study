@@ -1,11 +1,7 @@
+# vue_dev
 
-## canvas小游戏
+> A Vue.js project
 
-> ![image](https://raw.githubusercontent.com/lby1024/flappy_bird_for_es6_study/master/84c1449c0182051a78a8ccfe9edcf903.png)
-
-> 预览地址(用手机模式查看): https://lby1024.github.io/flappy_bird_for_es6_study/#/
-
->  技术栈: es6 + canvas + vue
 ## Build Setup
 
 ``` bash
@@ -22,4 +18,4 @@ npm run build
 npm run build --report
 ```
 
-
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

@@ -1,45 +1,33 @@
 <template>
-  <div id="app">
-    <canvas id="game" :width="canvas_width" :height="canvas_height"></canvas>
-    <!-- <img :src="pen" alt=""> -->
+  <div>
+    <canvas id="app"></canvas>
+    <audio src="../static/music/a2.mp3" class="music"></audio>
+    <audio src="../static/music/a3.mp3" class="music"></audio>
+    <audio src="../static/music/a4.mp3" class="music"></audio>
+    <audio src="../static/music/a7.mp3" class="music"></audio>
+    <audio src="../static/music/a8.mp3" class="music"></audio>
+    <audio src="../static/music/a9.mp3" class="music"></audio>
+    <audio src="../static/music/a10.mp3" class="music"></audio>
+    <audio src="../static/music/b3.m4a" class="music"></audio>
+    <audio src="../static/music/b4.m4a" class="music"></audio>
+    <audio src="../static/music/b5.m4a" class="music"></audio>
+    <audio src="../static/music/hit.ogg" class="music2"></audio>
   </div>
 </template>
 
 <script>
-import {Manager} from './js/manager.js'
+import {Game} from './js/game.js'
 
 export default {
   name: 'app',
-  data () {
-      return {
-        pen: '../static/image/pie_up.png'
-      }
-  },
-  computed: {
-    canvas_width () {
-      return document.documentElement.clientWidth
-    },
-    canvas_height () {
-      return document.documentElement.clientHeight
-    }
-  },
   mounted () {
-    Manager.getInstance()
+    Game.sington()
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  width: 100%;
-  height: 100%;
-}
-#game {
   position: fixed;
   top: 0;
   left: 0;

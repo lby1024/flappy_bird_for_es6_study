@@ -1,6 +1,9 @@
-# vue_dev
+# flappy bird 
 
-> A Vue.js project
+> ![image](https://raw.githubusercontent.com/lby1024/flappy_bird_for_es6_study/master/84c1449c0182051a78a8ccfe9edcf903.png)
+
+> 请F12调到手机模式(https://lby1024.github.io/flappy_bird_for_es6_study/#/)
+
 
 ## Build Setup
 
@@ -18,4 +21,3 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
